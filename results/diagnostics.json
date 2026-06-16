@@ -1,0 +1,56 @@
+{
+  "image_shape": [
+    400,
+    275
+  ],
+  "configuration": {
+    "block_size": 16,
+    "clahe_clip_limit": 2.0,
+    "clahe_grid": [
+      8,
+      8
+    ],
+    "orientation_smooth_sigma_blocks": 1.0,
+    "roi_dark_threshold": 248,
+    "roi_close_size": 19,
+    "roi_erode_px": 25,
+    "adaptive_block_size": 31,
+    "adaptive_c": 7,
+    "morph_kernel_size": 1,
+    "min_component_size": 24,
+    "prune_length": 5,
+    "minutia_roi_distance": 38.0,
+    "minutia_min_coherence": 0.4,
+    "minutia_min_separation": 20.0,
+    "branch_trace_length": 18,
+    "branch_min_length": 15,
+    "broken_ridge_pair_max_gap": 24.0,
+    "broken_ridge_pair_angle_tolerance_deg": 35.0,
+    "singular_search_radius_px": 10,
+    "singular_ring_radius_px": 10,
+    "singular_min_coherence": 0.12
+  },
+  "otsu_threshold": 153.0,
+  "binary_foreground_pixels": 30061,
+  "skeleton_pixels": 7761,
+  "pruned_skeleton_pixels": 75,
+  "prune_iterations": 1,
+  "raw_crossing_number_candidates": 436,
+  "candidate_clusters": 330,
+  "accepted_before_broken_ridge_pair_suppression": 41,
+  "suppressed_broken_ridge_endings": 8,
+  "accepted_minutiae": 33,
+  "accepted_endings": 31,
+  "accepted_bifurcations": 2,
+  "rejections": {
+    "outside_inner_roi": 129,
+    "low_coherence": 5,
+    "invalid_branch_count": 94,
+    "short_branch": 32,
+    "near_duplicate": 29
+  },
+  "block_singularity_candidates": 12,
+  "singularity_clusters": 3,
+  "detected_cores": 2,
+  "detected_deltas": 1
+}

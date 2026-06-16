@@ -1,0 +1,16 @@
+name: fingerprint-feature-lab
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - numpy=2.3.5
+  - scipy=1.17.0
+  - scikit-image=0.26.0
+  - matplotlib=3.10.8
+  - pandas=2.2.3
+  - jupyter
+  - nbclient
+  - pytest
+  - pip
+  - pip:
+      - opencv-contrib-python==4.13.0.92

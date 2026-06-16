@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this reconstruction, please cite the accompanying technical report."
+title: "Fingerprint Feature Extraction Lab: Reverse-Engineered Vision Pipeline"
+version: 1.0.0
+date-released: 2026-06-16
+authors:
+  - family-names: Harbonnier
+    given-names: Guillaume
+type: software
+license: MIT
