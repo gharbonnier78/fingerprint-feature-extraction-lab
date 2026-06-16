@@ -12,6 +12,12 @@ A GitHub-ready reconstruction of an exploratory fingerprint notebook into an ord
 
 ![Reconstructed result](results/11_combined_features.png)
 
+<p align="center">
+  <a href="./paper/Fingerprint_Feature_Extraction_Reverse_Engineering_v1_0_0.pdf">
+    <img src="https://img.shields.io/badge/Open-Article-0B5FFF?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Open PDF">
+  </a>
+</p>
+
 ## Scientific status
 
 This release is a **single-image research reconstruction**. It is not a production AFIS extractor, not a benchmarked matcher, and not an ISO/IEC 19794-2 encoder. The strict run on `images/input/1.jpg` returns 33 accepted minutia candidates (31 endings and 2 bifurcations), two core candidates, and one delta candidate. These counts are regression outputs, not accuracy claims: no expert ground truth was supplied.
